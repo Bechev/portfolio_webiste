@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Link from './Link.js'
-import email_logo from '../logos/email_logo.png';
-import twitter_logo from '../logos/twitter_logo.png';
-import github_logo from '../logos/github_logo.png';
+import email_logo from '../images/email_logo.png';
+import twitter_logo from '../images/twitter_logo.png';
+import github_logo from '../images/github_logo.png';
 import './components.css'
 
 
