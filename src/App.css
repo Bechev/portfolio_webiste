@@ -2,6 +2,9 @@
   text-align: center;
   /* margin: 4vh;; */
 }
+.description{
+  font-size: 2.8vh;
+}
 
 /* .App-logo {
   height: 40vmin;

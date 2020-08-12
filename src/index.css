@@ -2,8 +2,8 @@ body {
   font-family: 'Titillium Web', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 30%;
+  margin-right: 30%;
   margin-top: 4vh;;
 }
 
@@ -17,5 +17,12 @@ code {
   body{
     margin-left: 4vh;
     margin-right: 4vh;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  body{
+    margin-left: 20%;
+    margin-right: 20%;
   }
 }
