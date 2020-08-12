@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import Project from './Project.js'
 import './components.css'
 
 
-
-class Portfolio extends Component {
+class Project extends Component {
 
     // constructor(props) {
     //     super(props);
@@ -14,12 +12,12 @@ class Portfolio extends Component {
     render() {
 
         return (
-            <div className="portfolio">
-                <h2>Stuff I built</h2>
-                <Project/>
+            <div className="project">
+                Project
             </div>
         )
     }
+
 }
 
-export default Portfolio;
+export default Project;

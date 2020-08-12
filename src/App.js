@@ -9,12 +9,13 @@ function App() {
     <div className="App">
       <h1>Bertrand Chevalier</h1>
       <div className="description">
-        I love coding, in Python, in Ruby, in JavaScript and other languages I have yet to discover.
-        <br></br>
-        I focus on building and learning.
+        I love coding, building and learning.
       </div>
       <Contact/>
       <About/>
+      <br></br>
+      <br></br>
+      <br></br>
       <Portfolio/>
     </div>
   );
