@@ -5,3 +5,18 @@
   font-size: 3vh;
   margin-bottom: 5vh;
 }
+
+.background{
+  background-color: white;
+  padding: 4vh;
+  border-radius: 3vh;
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .background{
+    width: 100%;
+    margin-left: 0vh;
+    margin-right: 0vh;
+  }
+}

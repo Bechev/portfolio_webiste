@@ -1,9 +1,13 @@
+html{
+  background-color: #bbb;
+}
+
 body {
   font-family: 'Titillium Web', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 25%;
+  margin-right: 25%;
   margin-top: 4vh;;
 }
 
@@ -12,13 +16,14 @@ code {
     monospace;
 }
 
-
+/* 
 @media screen and (max-width: 600px) {
   body{
-    margin-left: 4vh;
-    margin-right: 4vh;
+    width: 100%;
+    margin-left: 0vh;
+    margin-right: 0vh;
   }
-}
+} */
 
 @media screen and (max-width: 900px) {
   body{

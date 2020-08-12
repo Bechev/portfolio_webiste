@@ -24,7 +24,7 @@ class About extends Component {
                             Fast forward to 2015, I moved to the US and discovered the concept of bootcamps. I was sold and attended the Flatiron Online Web Developer program.
                             <br></br>
                             Since then I oriented my career towards coding, becoming the "Mr Automation" of my company. 
-                            On the side, I've been focusing on building projects and deepening my knowledge of programming 
+                            On the side, I've been focusing on building projects and deepening my knowledge of programming and exploring new technologies 
                         </span>
                         <span> </span>
                         <a 

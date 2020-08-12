@@ -23,7 +23,7 @@ class Portfolio extends Component {
                     link="http://bertrandchevalier.com/losertictactoe/index.html" 
                     name="Losing Tic Tac Toe"
                     image={losertictactoe_screenshot} 
-                    description="This project makes Tic Tac Toe interesting again by changing the game's object. Try to lose!"
+                    description="This project makes Tic Tac Toe interesting again by changing the game's object. You're X, the AI is O, try to lose, good luck."
                     technology={[ "HTML", "Vanilla Javascript", "Minimax Algorithm"]}/>
                 
                 <Project 
