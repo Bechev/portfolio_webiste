@@ -24,7 +24,7 @@ class Portfolio extends Component {
                     name="Losing Tic Tac Toe"
                     image={losertictactoe_screenshot} 
                     description="This project makes Tic Tac Toe interesting again by changing the game's object. Try to lose!"
-                    technology={[ "HTML", "Vanilla Javascript", "Minimax Algorythm"]}/>
+                    technology={[ "HTML", "Vanilla Javascript", "Minimax Algorithm"]}/>
                 
                 <Project 
                     link="https://lightnino.herokuapp.com/" 
