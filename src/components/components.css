@@ -1,0 +1,18 @@
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2vh;
+    align-items: center;
+}
+.logo{
+    margin: 1vh;
+}
+
+.text{
+    text-align: justify;
+}
+
+h2{
+    text-align: left;
+}
