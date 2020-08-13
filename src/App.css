@@ -14,11 +14,3 @@
   border-radius: 2vh;
   width: 100%;
 }
-
-@media screen and (max-width: 950px) {
-  .background{
-    width: 100%;
-    margin-left: 0vh;
-    margin-right: 0vh;
-  }
-}

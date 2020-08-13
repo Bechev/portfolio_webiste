@@ -16,18 +16,25 @@ code {
     monospace;
 }
 
-/* 
-@media screen and (max-width: 600px) {
-  body{
-    width: 100%;
-    margin-left: 0vh;
-    margin-right: 0vh;
-  }
-} */
 
 @media screen and (max-width: 900px) {
   body{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body{
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0;
   }
 }
