@@ -3,6 +3,7 @@ import Project from './Project.js'
 import image_placeholder from '../images/image_placeholder.jpg'
 import blackjack_screenshot from '../images/blackjack_screenshot.png'
 import losertictactoe_screenshot from '../images/losertictactoe_screenshot.png'
+import onedayonepun_screenshot from '../images/1day1pun_screenshot.png'
 import './components.css'
 
 
@@ -20,6 +21,13 @@ class Portfolio extends Component {
             <div className="portfolio">
                 <h2>Some stuff I built</h2>
                 <Project 
+                    link="https://simmering.herokuapp.com/" 
+                    name="Simmering"
+                    image={image_placeholder} 
+                    description="A website that changes the way you do your groceries by making it easy to eat seasonal and local food while reducing waste"
+                    technology={[ "React-Redux", "Ruby on Rails", "Devise-token-auth"]}/>
+
+                <Project 
                     link="http://bertrandchevalier.com/losertictactoe/index.html" 
                     name="Losing Tic Tac Toe"
                     image={losertictactoe_screenshot} 
@@ -34,11 +42,12 @@ class Portfolio extends Component {
                     technology={[ "React", "Ruby on Rails", "Postgres"]}/>
 
                 <Project 
-                    link="https://simmering.herokuapp.com/" 
-                    name="Simmering"
-                    image={image_placeholder} 
-                    description="A website that changes the way you do your groceries by making it easy to eat seasonal and local food while reducing waste"
-                    technology={[ "React-Redux", "Ruby on Rails", "Devise-token-auth"]}/>
+                    link="https://twitter.com/1day1pun" 
+                    name="One day, one pun"
+                    image={onedayonepun_screenshot} 
+                    description="Too lame to be dad jokes, too important not to exist. Your daily pun provided through Twitter"
+                    technology={[ "Twitter bot", "Ruby on Rails", "Heroku"]}/>
+
             </div>  
         )
     }

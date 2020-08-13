@@ -12,22 +12,23 @@ class Link extends Component {
     render() {
 
         return (
-            <div>
+            // <div>
 
                 <a
-                className={'logo ' + this.props.class}
+                className={'logo '}
                 href={this.props.link}
                 target="_blank"
                 rel="noopener noreferrer"
                 >
                     <img
+                    class = {this.props.class}
                     width='30px'
                     src={this.props.image}
                     alt=''
                     >
                     </img>
                 </a>
-            </div>
+            // {/* </div> */}
         );
     }
 }
