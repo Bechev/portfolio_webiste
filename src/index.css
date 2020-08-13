@@ -30,11 +30,3 @@ code {
     margin-right: 0%;
   }
 }
-
-@media screen and (max-width: 500px) {
-  body{
-    margin-left: 0%;
-    margin-right: 0%;
-    margin-top: 0;
-  }
-}
