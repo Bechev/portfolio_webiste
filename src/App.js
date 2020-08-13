@@ -2,13 +2,10 @@ import React from 'react';
 import About from './components/About.js'
 import Contact from './components/Contact.js'
 import Portfolio from './components/Portfolio.js'
+import ScrollArrow from './components/ScrollArrow'
 import './App.css';
 
 function App() {
-  topFunction(){
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-  }
 
   return (
     <div className="App">
@@ -21,7 +18,7 @@ function App() {
         <About/>
         <br></br>
         <Portfolio/>
-        <button onclick={this.topFunction()} id="myBtn" title="Go to top">Top</button>
+        <ScrollArrow/>
       </div>
     </div>
   );
